@@ -32,7 +32,7 @@
     g21: n3_qmark    { compatible = "zmk,behavior-mod-morph"; label = "N3_QMARK";       #binding-cells = <0>; bindings = <&kp N3>,        <&kp QMARK>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
     g22: n2_excl     { compatible = "zmk,behavior-mod-morph"; label = "N2_EXCL";        #binding-cells = <0>; bindings = <&kp N2>,        <&kp EXCL>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
     g23: n1_lpar     { compatible = "zmk,behavior-mod-morph"; label = "N1_LPAR";        #binding-cells = <0>; bindings = <&kp N1>,        <&kp LPAR>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g24: n0_rpar     { compatible = "zmk,behavior-mod-morph"; label = "N0_LPAR";        #binding-cells = <0>; bindings = <&kp N0>,        <&kp LPAR>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g24: n0_rpar     { compatible = "zmk,behavior-mod-morph"; label = "N0_LPAR";        #binding-cells = <0>; bindings = <&kp N0>,        <&kp RPAR>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
     g25: dot_none    { compatible = "zmk,behavior-mod-morph"; label = "DOT_BLANK";      #binding-cells = <0>; bindings = <&kp DOT>,       <&none>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
 
     g31: plus_none   { compatible = "zmk,behavior-mod-morph"; label = "PLUS_BLANK";     #binding-cells = <0>; bindings = <&kp PLUS>,      <&none>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
