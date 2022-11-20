@@ -41,19 +41,19 @@
     g34: n4_amps     { compatible = "zmk,behavior-mod-morph"; label = "N4_AMPS";        #binding-cells = <0>; bindings = <&kp N4>,        <&kp AMPS>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
     g35: minus_none  { compatible = "zmk,behavior-mod-morph"; label = "MINUS_BLANK";    #binding-cells = <0>; bindings = <&kp MINUS>,     <&none>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
 
-    g12r: lt_lbkt    { compatible = "zmk,behavior-mod-morph"; label = "LT_LBKT";        #binding-cells = <0>; bindings = <&kp LT>,        <&LBKT>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g13r: gt_rbkt    { compatible = "zmk,behavior-mod-morph"; label = "GT_RBKT";        #binding-cells = <0>; bindings = <&kp GT>,        <&RBKT>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g12r: lt_lbkt    { compatible = "zmk,behavior-mod-morph"; label = "LT_LBKT";        #binding-cells = <0>; bindings = <&kp LT>,        <&kp LBKT>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g13r: gt_rbkt    { compatible = "zmk,behavior-mod-morph"; label = "GT_RBKT";        #binding-cells = <0>; bindings = <&kp GT>,        <&kp RBKT>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
     g14r: eq_none    { compatible = "zmk,behavior-mod-morph"; label = "EQ_BLANK";       #binding-cells = <0>; bindings = <&kp EQUAL>,     <&none>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
     g15r: pipe_none  { compatible = "zmk,behavior-mod-morph"; label = "PIPE_BLANK";     #binding-cells = <0>; bindings = <&kp PIPE>,      <&none>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
 
-    g22r: dot_col    { compatible = "zmk,behavior-mod-morph"; label = "DOT_COLON";      #binding-cells = <0>; bindings = <&kp DOT>,       <&COLON>;     mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g23r: com_sem    { compatible = "zmk,behavior-mod-morph"; label = "COMMA_SEMI";     #binding-cells = <0>; bindings = <&kp COMMA>,     <&SEMI>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g24r: sqt_dqt    { compatible = "zmk,behavior-mod-morph"; label = "SQT_DQT";        #binding-cells = <0>; bindings = <&kp SQT>,       <&DQT>;       mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g25r: min_und    { compatible = "zmk,behavior-mod-morph"; label = "MINUS_UNDER";    #binding-cells = <0>; bindings = <&kp MINUS>,     <&UNDER>;     mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g22r: dot_col    { compatible = "zmk,behavior-mod-morph"; label = "DOT_COLON";      #binding-cells = <0>; bindings = <&kp DOT>,       <&kp COLON>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g23r: com_sem    { compatible = "zmk,behavior-mod-morph"; label = "COMMA_SEMI";     #binding-cells = <0>; bindings = <&kp COMMA>,     <&kp SEMI>;   mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g24r: sqt_dqt    { compatible = "zmk,behavior-mod-morph"; label = "SQT_DQT";        #binding-cells = <0>; bindings = <&kp SQT>,       <&kp DQT>;    mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g25r: min_und    { compatible = "zmk,behavior-mod-morph"; label = "MINUS_UNDER";    #binding-cells = <0>; bindings = <&kp MINUS>,     <&kp UNDER>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
     
-    g32r: lbrc_car   { compatible = "zmk,behavior-mod-morph"; label = "LBRC_CARET";     #binding-cells = <0>; bindings = <&kp LBRC>,      <&CARET>;     mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g33r: rbrc_tld   { compatible = "zmk,behavior-mod-morph"; label = "RBRC_TILDE";     #binding-cells = <0>; bindings = <&kp RBRC>,      <&TILDE>;     mods = <(MOD_LSFT|MOD_RSFT)>; };
-    g34r: slsh_grv   { compatible = "zmk,behavior-mod-morph"; label = "SLASH_GRAVE";    #binding-cells = <0>; bindings = <&kp SLASH>,     <&GRAVE>;     mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g32r: lbrc_car   { compatible = "zmk,behavior-mod-morph"; label = "LBRC_CARET";     #binding-cells = <0>; bindings = <&kp LBRC>,      <&kp CARET>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g33r: rbrc_tld   { compatible = "zmk,behavior-mod-morph"; label = "RBRC_TILDE";     #binding-cells = <0>; bindings = <&kp RBRC>,      <&kp TILDE>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
+    g34r: slsh_grv   { compatible = "zmk,behavior-mod-morph"; label = "SLASH_GRAVE";    #binding-cells = <0>; bindings = <&kp SLASH>,     <&kp GRAVE>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
     g35r: bslh_none  { compatible = "zmk,behavior-mod-morph"; label = "BSLH_BLANK";     #binding-cells = <0>; bindings = <&kp BSLH>,      <&none>;      mods = <(MOD_LSFT|MOD_RSFT)>; };
   };
 
